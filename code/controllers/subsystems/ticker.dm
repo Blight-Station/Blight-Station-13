@@ -51,11 +51,21 @@ var/datum/controller/subsystem/ticker/SSticker
 	var/obj/screen/cinematic = null
 
 	var/list/possible_lobby_tracks = list(
-		'sound/music/space.ogg',
-		'sound/music/traitor.ogg',
-		'sound/music/title2.ogg',
-		'sound/music/clouds.s3m',
-		'sound/music/space_oddity.ogg'
+		'modular_core/sound/music/cybercity.ogg',
+		'modular_core/sound/music/darkroad.ogg',
+		'modular_core/sound/music/devour.ogg',
+		'modular_core/sound/music/electrokitten.ogg',
+		'modular_core/sound/music/extraterra.ogg',
+		'modular_core/sound/music/finallycalm.ogg',
+		'modular_core/sound/music/goodbye.ogg',
+		'modular_core/sound/music/hellsing.ogg',
+		'modular_core/sound/music/isntanygod.ogg',
+		'modular_core/sound/music/lifttogether.ogg',
+		'modular_core/sound/music/lurkingevil.ogg',
+		'modular_core/sound/music/madness.ogg',
+		'modular_core/sound/music/ss13arranged.ogg',
+		'modular_core/sound/music/vaporwave.ogg',
+		'modular_core/sound/music/wrongside.ogg'
 	)
 
 	var/lobby_ready = FALSE
